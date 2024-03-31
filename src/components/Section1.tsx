@@ -27,7 +27,7 @@ const Card = ({ title, description, image, href }: CardProps) => {
           </h3>
           <p className="text-card-foreground mt-4 text-base">{description}</p>
         </div>
-        <Button className="mt-auto w-full" asChild>
+        <Button className="mt-auto w-full hover:bg-red-500" asChild>
           <Link href={href}>Book now</Link>
         </Button>
       </div>
